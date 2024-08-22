@@ -1,4 +1,3 @@
-import { useState } from "react"
 function PortfolioItem({data}) {
     const { name, img, url, description } = data
     console.log('hello',data)

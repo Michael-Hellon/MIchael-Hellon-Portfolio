@@ -2,7 +2,7 @@ import PortfolioItem from "./PortfolioItem"
 import { portfolioData } from "../utils/portfolioData"
 
 
-function PortfolioList( { } ) {
+function PortfolioList({} ) {
     const list = portfolioData.map(portfolio => {
         return(
         <PortfolioItem
