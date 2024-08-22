@@ -3,7 +3,9 @@
 // maybe switch to the colosseum in rome, or a winery in tuscany
 
 function Hero() {
+    <>
     <img alt="Rocky Mountains" src="../assets/images/Skyline.jpg"/>
+    </>
 }
 
 export default Hero

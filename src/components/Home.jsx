@@ -1,4 +1,4 @@
-import Intro from './About'
+import About from './About'
 
 function Home() {
 

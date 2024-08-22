@@ -1,4 +1,25 @@
-// list of projects for portfolio
-
 import PortfolioItem from "./PortfolioItem"
-import { PortfolioData } from "../utils/portfolioData"
+import { portfolioData } from "../utils/portfolioData"
+
+
+function PortfolioList( { } ) {
+    const list = portfolioData.map(portfolio => {
+        return(
+        <PortfolioItem
+            key={portfolio.id}
+            data={portfolio}
+            />
+        )
+    })
+
+    return(
+    <>
+    <h2>My Portfolio Projects</h2>
+    <table><tbody><tr>
+    {list}
+    </tr></tbody></table>
+    </>
+    )
+}
+
+export default PortfolioList
