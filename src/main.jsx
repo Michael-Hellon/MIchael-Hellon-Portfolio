@@ -1,9 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './index.css';
-// these are the pages that are in the pages folder
+// import React from 'react';
+import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
+import './index.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+// these are the pages that are in the pages folder
+import ErrorPage from './components/ErrorPage';
 import Home from './components/Home.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import Contact from './components/Contact.jsx';
@@ -15,26 +17,28 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: <Home />,
+        path: '/',
+        element: <Home />
       },
       {
-        path: '/Portfolio',
-        element: <Portfolio />,
+        path: 'Portfolio',
+        element: <Portfolio />
       },
       {
-        path: '/Contact',
-        element: <Contact />,
+        path: 'Contact',
+        element: <Contact />
       },
       {
-        path: '/About',
-        element: <About />,
-      },
-    ],
-  },
-]);
+        path: 'About',
+        element: <About />
+      }
+    ]
+  }
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />

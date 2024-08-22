@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Hero from "./Hero"
 function About() {
     return(
