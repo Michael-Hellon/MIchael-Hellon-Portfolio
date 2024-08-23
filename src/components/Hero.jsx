@@ -3,9 +3,12 @@
 // maybe switch to the colosseum in rome, or a winery in tuscany
 
 function Hero() {
+    return(
     <>
-    <img alt="Rocky Mountains" src="../assets/images/Skyline.jpg"/>
+    <img src="https://michael-hellon.github.io/React-Portfolio/src/assets/images/Skyline.jpg" alt="Rocky Mountains" />
     </>
+    )
 }
 
 export default Hero
+

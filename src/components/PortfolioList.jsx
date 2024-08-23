@@ -1,8 +1,10 @@
+/* eslint-disable no-empty-pattern */
 import PortfolioItem from "./PortfolioItem"
 import { portfolioData } from "../utils/portfolioData"
 
+console.log(portfolioData);
 
-function PortfolioList({} ) {
+function PortfolioList( { } ){
     const list = portfolioData.map(portfolio => {
         return(
         <PortfolioItem
