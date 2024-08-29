@@ -2,16 +2,9 @@
 
 ## Description
 
-This project was to create a portfolio using React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. This portfolio will be built using vite.
+This project was to update our portfolio of projects using our React skills and other things we have learned over the last several months. This portfolio will be built using React and the necessary libraries, Vite, and TailwindsCSS. This site will act like a single page website due to using a virtual DOM. This Portfolio will eventually contain all my projects.
 
-
-
-It uses Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the Express.js and Mongoose packages, we will be using the native JavaScript Date object format timestamps. Node manager uses CRUD actions to get, create, update, and delete the associations between Users, Thoughts, Friends, and Reactions. 
-
-- My motivation was to create a working social networking api that used express.js mongoose packages, as well as utilizing MongoDB and Mongoose ODM to develop the application.
-- I built this project so that my client and others could utilize a social networking application where they could create, update and share their thoughts, react to friends’ thoughts, and create a friend list, and allowing the user to delete their comments, reactions and friends as needed.
-- This project solved the problem of creating a working social networking application that allows the users to create, update, and delete their thoughts, friends, and reactions.  
-- I learned a lot from this project. I learned how to create association without a set relational structure to manage the information going into the database.
+- I learned a lot from this project. I learned how to use React and how much easier it is to use then Handlebars. Future improvements will involve putting each project item on its own individual card in a carousel. I will also include my Resume and a link for people to leave comments. The next step for this project is to turn it into a 3d portfolio and have the whole site turn as you look at it.
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
@@ -30,11 +23,11 @@ It uses Express.js for routing, a MongoDB database, and the Mongoose ODM. In add
 
 ## Installation
 
-To use this program, you will need MongoBD, or a similar NoSQL database; and Insomnia. All you need to do is clone the repository from GitHub onto your computer. Once you open the root of the new folder, you can run `npm install` in the terminal. You are now set to run the actual program.
+To use this program, all you need to do is clone the repository from GitHub onto your computer. Once you open the root of the new folder, you can run `npm install` in the terminal. Then you need to run `npm run build`.  You are now set to run the actual program.
 
 ## Usage
 
-After you have installed the npm, in the terminal type in `npm run start`. Then you can open both MongoDB and Insomnia and start utilizing the route. First, thing you will probably have to do is create some users, and thoughts using the POST routes.  Then you can have fun creating the friends for the users, and reactions to the thoughts. 
+After you have installed the npm, in the terminal type in `npm run start`. After that a webpage will open up showing my portfolio. If you don't see it press `Ctrl-Shift-R` this will clear your cache and you should now be able to view my portfolio.
 
 ## Contribute
 
