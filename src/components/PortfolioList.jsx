@@ -2,6 +2,7 @@
 import PortfolioItem from "./PortfolioItem"
 import { portfolioData } from "../utils/portfolioData"
 
+
 console.log(portfolioData);
 
 function PortfolioList( { } ){
@@ -18,7 +19,9 @@ function PortfolioList( { } ){
     <>
     <h2>My Portfolio Projects</h2>
     <table><tbody><tr>
-    {list}
+    <div className="cards">    
+        {list}
+    </div>
     </tr></tbody></table>
     </>
     )

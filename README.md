@@ -43,11 +43,24 @@ My Github profile can be located at <https://github.com/Michael-Hellon/>
 
 You can email me with any questions at <mwhellon@yahoo.com>
 
-![screenshot](/assets/images/screenshot.png)
+![screenshot](src/assets/images/screenshot1.png)
+![screenshot](src/assets/images/screenshot2.png)
 
 ## Credits
 
-I completed this project myself and used MOD 18’s mini-project as a guideline for this project. 
+I completed this project myself and used MOD 20's mini-project as a guideline for this project. I did however use the following as references:
+
+React: https://react.dev 
+
+React Dev Tools: https://react.dev/learn/react-developer-tools
+
+React Router DOM: https://www.npmjs.com/package/react-router-dom 
+
+Vite: https://vitejs.dev 
+
+TailwindCss: https://tailwindcss.com/docs/installation
+
+Netlify: https://www.netlify.com/
 
 ## License
 
