@@ -5,8 +5,9 @@
 function Hero() {
     return(
     <>
-    <div className="mw-600">
+    <div>
         <img src="https://michael-hellon.github.io/React-Portfolio/src/assets/images/Skyline.jpg" alt="Rocky Mountains" />
+        <img src="https://michael-hellon.github.io/React-Portfolio/src/assets/images/Skyline2.jpg" alt="Rocky Mountains" />
     </div>
     </>
     )
