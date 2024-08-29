@@ -1,5 +1,5 @@
 function PortfolioItem({data}) {
-    const { name, img, url, description } = data
+    const { name, img, url, description, github } = data
     console.log('hello',data)
 
     return(
@@ -11,6 +11,7 @@ function PortfolioItem({data}) {
             <div className="description">
                 <p>{description}</p>
                 <button className="cta" value="Launch App" title="LaunchApp"><a title="Launch App" href={url} >Launch the {name} App</a></button>
+                <a href={github} title="GitHUb Link">GitHUb</a>
             </div>
             </td>
 
