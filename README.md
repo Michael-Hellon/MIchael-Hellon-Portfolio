@@ -4,6 +4,8 @@
 
 This project was to update our portfolio of projects using our React skills and other things we have learned over the last several months. This portfolio will be built using React and the necessary libraries, Vite, and TailwindsCSS. This site will act like a single page website due to using a virtual DOM. This Portfolio will eventually contain all my projects.
 
+This portfolio is currently deployed to  [Netlify](https://symphonious-trifle-c7b677.netlify.app/)
+
 - I learned a lot from this project. I learned how to use React and how much easier it is to use then Handlebars. Future improvements will involve putting each project item on its own individual card in a carousel. I will also include my Resume and a link for people to leave comments. The next step for this project is to turn it into a 3d portfolio and have the whole site turn as you look at it.
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
