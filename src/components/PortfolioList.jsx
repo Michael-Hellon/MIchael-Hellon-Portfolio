@@ -16,14 +16,17 @@ function PortfolioList( { } ){
     })
 
     return(
-    <>
-    <h2>My Portfolio Projects</h2>
-    <table><tbody><tr>
-    <div className="cards">    
-        {list}
-    </div>
-    </tr></tbody></table>
-    </>
+      <>
+        <div className="text-center text-red-400">
+          <h2>My Portfolio Projects</h2>
+        </div>
+            <table><tbody><tr>
+            <div className="cards">    
+            {list}
+            </div>
+            </tr></tbody></table>
+
+      </>
     )
 }
 
