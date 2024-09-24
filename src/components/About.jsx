@@ -6,9 +6,9 @@ function About() {
         <Hero />
           <div className="aboutText">
             <div className="text-center">
-              <h1>About Me</h1>
+              <h2>About Me</h2>
             </div>
-            <div className="">
+            <h3>
 
             <p>I am a passionate and solutions-driven full stack web developer with a web development certificate from the University of Kansas.</p>
             <p>I am looking for a challenging web developer position in a dynamic and innovative organization where I can utilize my technical and</p> 
@@ -19,7 +19,7 @@ function About() {
             <p>I decided to change career fields after retiring from the US Army after serving 20 faithful years.</p> 
             <p>I was an Army Instructor, a Leader, a Mentor, and Supervisor during that time. I have worked closely with, and fostered relations with other</p>
             <p> nations, and civilian contractors which enabled all parties to prosper and succeed.</p>
-            </div>
+            </h3>
           </div>
       
 

@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
 
@@ -8,6 +8,7 @@ function App() {
     
     <h1><a href="/" title='Michael Hellon'>Michael Hellon</a></h1>
       <div className="portfolio-page">
+
       <Nav />
       <Outlet />
       </div>

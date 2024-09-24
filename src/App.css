@@ -25,6 +25,7 @@ body {
 }
 
 h1 {
+  text-align: center;
   margin: 32px 0;
   color: #fff;
   font-size: 24px;
@@ -32,7 +33,7 @@ h1 {
 
 h3 {
   margin: auto;
-  color: rgb(66, 171, 231);
+  color: #1a1a1a;
   font-size: 20px;
 }
 

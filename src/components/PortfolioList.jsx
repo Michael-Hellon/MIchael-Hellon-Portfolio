@@ -6,6 +6,8 @@ import { portfolioData } from "../utils/portfolioData"
 console.log(portfolioData);
 
 function PortfolioList( { } ){
+
+
     const list = portfolioData.map(portfolio => {
         return(
         <PortfolioItem
@@ -17,7 +19,7 @@ function PortfolioList( { } ){
 
     return(
       <>
-        <div className="text-center text-red-400">
+        <div className="text-center">
           <h2>My Portfolio Projects</h2>
         </div>
             <table><tbody><tr>

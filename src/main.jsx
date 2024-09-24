@@ -1,7 +1,7 @@
 // import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
-import './index.css';
+// import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // these are the pages that are in the pages folder
@@ -32,10 +32,7 @@ const router = createBrowserRouter([
         path: 'Contact',
         element: <Contact />
       },
-      {
-        path: 'About',
-        element: <About />
-      },
+
       // {
       //   path: 'Resume',
       //   element: <Resume />
