@@ -9,6 +9,7 @@
   background-color: #242424;
 
 
+
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -57,7 +58,9 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   text-transform: uppercase;
+
 }
+
 button:hover {
   border-color: #242769;
 }
@@ -69,10 +72,11 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #242769;
+    
     background-color: #ffffff;
   }
   a:hover {
-    color: #242769;
+    color: blue;
   }
   button {
     margin: auto;
@@ -102,11 +106,6 @@ img.smIcon {
   padding: 0em 0em 5em 0em;
 }
 
-.aboutText {
-  text-align: center;
-  padding: 0em 2em 2em 2em;
-
-}
 table {
   width: 100%;
   max-width: 100%;

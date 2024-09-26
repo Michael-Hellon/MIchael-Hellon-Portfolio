@@ -1,10 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import Hero from "./Hero"
+import Hero from "../Hero";
+import './about.css';
+
 function About() {
     return(
         <>
         <Hero />
-          <div className="aboutText">
+          <div className="about-text">
             <div className="text-center">
               <h2>About Me</h2>
             </div>
