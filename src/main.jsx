@@ -9,7 +9,6 @@ import ErrorPage from './components/ErrorPage';
 import Home from './components/Home.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import Contact from './components/Contact.jsx';
-import About from './components/About.jsx';
 // import Resume from './components/Resume.jsx';
 
 // Define the accessible routes, and which components respond to which URL
