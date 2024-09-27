@@ -43,6 +43,10 @@ h3 {
   font-size: 20px;
 }
 
+.app-title {
+  font-size: 4.5em;
+}
+
 .complete {
   text-decoration: line-through;
   opacity: 0.4;

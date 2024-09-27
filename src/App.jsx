@@ -6,7 +6,10 @@ function App() {
   return (
     <>
     
-    <h1><a href="/" title='Michael Hellon'>Michael Hellon</a></h1>
+    <div className='app-title'> 
+      <a href="/" title='Michael Hellon'>Michael Hellon</a>
+    </div>
+
       <div>
 
       <Nav />
