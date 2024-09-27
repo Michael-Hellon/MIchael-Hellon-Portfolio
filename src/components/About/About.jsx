@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Hero from "../Hero/Hero";
-import './about.css';
+import './About/About';
 
 function About() {
     return(
