@@ -1,11 +1,10 @@
 .hero{
     /* aspect-ratio: 16/6;
 } */
-    object-fit:contain;
     max-width: 95%;
     /* max-height: %%; */
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
     margin:auto;
  }
 

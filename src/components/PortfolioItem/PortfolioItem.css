@@ -1,21 +1,23 @@
-.row {
+/* .row {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   margin: 2.5%;
-  /* margin-right: 2.5%; */
+  margin-right: 2.5%;
   justify-content: center;
-}
+} */
 
 .grid {
   max-width: 400px;
+  height: 400px;
 }
 
 .container {
     width: 95%;
     border: 15px ;
     margin: 10px;
-
+    margin-bottom: 150px;
+   
 }
 
 .container-row {

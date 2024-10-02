@@ -1,14 +1,11 @@
-h2 {
-   font-size: 3em;
-}
-
 h3 {
    font-size: 1.5em;
 }
 
 .about-text {
     text-align: center;
-    padding: 0em 2em 2em 2em;
+    margin: auto;
+    padding: 0 2em 0 2em;
   
   }
 
