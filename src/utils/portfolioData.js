@@ -5,7 +5,9 @@ export const portfolioData = [
     id: 1,
     name: "TaskAttacker",
     github:"https://github.com/Michael-Hellon/TaskAttacker",
-    img: "https://michael-hellon.github.io/Michael-Hellon-Portfolio/src/assets/images/TaskAttacker.png",
+    img: "https://michael-hellon.github.io/MIchael-Hellon-Portfolio/src/assets/images/TaskAttacker.png",
+    img: "https://michael-hellon.github.io/",
+
     url: "https://taskattacker-cjfj.onrender.com/login",
     description: "A daily planner that allows the user to create, update and deletes tasks as well as start times for those tasks."
     },
