@@ -5,9 +5,7 @@ export const portfolioData = [
     id: 1,
     name: "TaskAttacker",
     github:"https://github.com/Michael-Hellon/TaskAttacker",
-    img: "https://michael-hellon.github.io/MIchael-Hellon-Portfolio/src/assets/images/TaskAttacker.png",
-    img: "https://michael-hellon.github.io/",
-
+    img: "https://michael-hellon.github.io/Michael-Hellon-Portfolio/src/assets/images/TaskAttacker.png",
     url: "https://taskattacker-cjfj.onrender.com/login",
     description: "A daily planner that allows the user to create, update and deletes tasks as well as start times for those tasks."
     },
@@ -49,7 +47,7 @@ export const portfolioData = [
     id: 6, 
     name: "Task Board", 
     github:"https://github.com/Michael-Hellon/Task-Board---3rd-Party-APIs", 
-    img: "https://michael-hellon.github.io/React-Portfolio/src/assets/images/Task_Board.png", 
+    img: "https://michael-hellon.github.io/Michael-Hellon-Portfolio/src/assets/images/Task_Board.png", 
     description: "A simple task board that allows users to create tasks, assign due date and move them from one column to the next. The cards change colors if the due date is past, current or in the future. To view download the code in VSC. Run the html in the browser."
     },
 ]
