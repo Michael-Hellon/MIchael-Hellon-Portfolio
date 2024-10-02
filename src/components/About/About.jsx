@@ -12,14 +12,15 @@ function About() {
             </div>
             <h3>
               <p>I am a passionate and solutions-driven full stack web developer with a web development certificate from the University of Kansas. 
-              I am looking for a challenging web developer position in a dynamic and innovative organization where I can utilize my technical and<br/> 
+              I am looking for a challenging web developer position in a dynamic and innovative organization where I can utilize my technical and 
               creative skills to develop and maintain responsive, user-friendly, and visually appealing websites.<br/> 
               I have experience in developing and maintaining visually appealing websites using modern web development frameworks and tools.<br/><br/>
-              My technical skill include JavaScript, HTML5/CSS, MySQL, NoSQL, jQuery, Bootstrap, the Full MERN stack, APi's, Render, and CRUD Operations.
-              I have had a passion for coding and web development for the last 2 years.<br/>
-              Currently, I am learning Linux and Motoko in order to build an NFT marketplace with blockchain technology. I am also learning Python to <br/><br/>
+              My technical skill include JavaScript, HTML5/CSS, MySQL, NoSQL, jQuery, Bootstrap, the Full MERN stack, APi's, Render, and CRUD Operations.<br/> 
+              I have had a passion for coding and web development for the last 2 years.<br/> 
+              Currently, I am learning Linux and Motoko in order to build an NFT marketplace with blockchain technology.<br/> 
+              I am also learning Python for web development, data science, and machine learning and the blockchain aspects.<br/><br/>
 
-              Throughout my career in the US Army<br/> 
+              Throughout my career in the US Army.
               I have been an Instructor, a Leader, a Mentor, and Supervisor to many.<br/>
               I have worked closely with, and fostered relations with other
               nations, and civilian contractors<br /> which enabled all parties to prosper and succeed.</p><br/>
