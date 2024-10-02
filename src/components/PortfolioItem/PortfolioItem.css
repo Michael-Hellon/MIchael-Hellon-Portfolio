@@ -1,0 +1,55 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 2.5%;
+  /* margin-right: 2.5%; */
+  justify-content: center;
+}
+
+.grid {
+  max-width: 400px;
+}
+
+.container {
+    width: 95%;
+    border: 15px solid chartreuse;
+    margin: 10px;
+
+}
+
+.container-row {
+    flex: 1 0 200px;
+    grid-template-columns: 25% 25% 25%;
+}
+
+.code-card .code-block {
+    flex-grow: 1;
+  }
+
+@media screen and (min-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    .card-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    
+    /* select the last child to grow to full width if it has space to grow */
+    .card-column:last-child {
+      flex-grow: 1;
+    }
+  }
+    
+  /* media query for larger screens */
+@media screen and (min-width: 992px) {
+    /* header {
+      width: 75%;
+    } */
+    
+    .card-column {
+        flex: 0 0 25%;
+        max-width: 25%;
+      }
+    }
+
+  

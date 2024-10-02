@@ -1,5 +1,5 @@
 /* eslint-disable no-empty-pattern */
-import PortfolioItem from "./PortfolioItem"
+import PortfolioItem from "./PortfolioItem/PortfolioItem"
 import { portfolioData } from "../utils/portfolioData"
 
 
