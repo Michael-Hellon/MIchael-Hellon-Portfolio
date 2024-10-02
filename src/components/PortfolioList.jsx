@@ -19,11 +19,11 @@ function PortfolioList( { } ){
 
     return(
       <>
-        <div className="text-center">
+        <div className="mt-20 text-center text-6xl font-semibold">
           <h2>My Portfolio Projects</h2>
         </div>
             <table><tbody><tr>
-            <div className="cards">    
+            <div className="flex flex-wrap justify-center py-8">    
             {list}
             </div>
             </tr></tbody></table>

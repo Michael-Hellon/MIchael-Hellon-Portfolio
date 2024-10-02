@@ -1,7 +1,8 @@
 import "./PortfolioItem.css";
 
+
 function PortfolioItem({data}) {
-  const { name, img, url, description, github } = data
+  const { id, name, img, url, description, github } = data
 
   return(
     <>
@@ -10,10 +11,10 @@ function PortfolioItem({data}) {
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href={url}>
-          <img className="card-image rounded-t-lg" src={img}  alt="" />
+          <img className="rounded-t-lg" src={img}  alt="" />
         </a>
         <div className="p-5">
-          <a href="#">
+          <a href={name}>
             <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h3>
           </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{description}</p>
@@ -27,12 +28,14 @@ function PortfolioItem({data}) {
       </div>
 
     </div>
+
     </td>
     </> 
 
   )
 
 }
+
 
 export default PortfolioItem 
 
