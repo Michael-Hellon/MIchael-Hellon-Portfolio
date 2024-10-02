@@ -8,7 +8,7 @@ function Hero() {
     <div className="hero">
         {/* <img src="https://michael-hellon.github.io/React-Portfolio/src/assets/images/Skyline.jpg" alt="Rocky Mountains" /> */}
         {/* <img src="https://michael-hellon.github.io/React-Portfolio/src/assets/images/KansasPrairie.jpg" alt="Kansas Prairie" /> */}
-        <img src="https://michael-hellon.github.io/React-Portfolio/src/assets/images/Manhattan_kansas" alt="Manhattan Kansas" />
+        <img src="https://michael-hellon.github.io/React-Portfolio/src/assets/images/Manhattan_v2.jpg" alt="Manhattan Kansas" />
 
     </div>
     </>
