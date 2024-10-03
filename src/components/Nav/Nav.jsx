@@ -13,6 +13,7 @@ export default function Nav() {
         <Link className='navbar' key={2} to='/Portfolio'>Portfolio</Link>,
         <a className='navbar' key={3} href="mailto:mwhellon@yahoo.com" title="mwhellon@yahoo.com">Contact</a>,       
         <a className='navbar' key={5} href={resumeMichael}>Resume</a>,
+        <a className='navbar' key={6} href="https://www.linkedin.com/in/michael-hellon/" title="LinkedIn">LinkedIn</a>,
       ]}
     />
     </div>
